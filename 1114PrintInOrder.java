@@ -1,4 +1,4 @@
-class 1114_PrintInOrder {
+class 1114PrintInOrder {
 
     //Lock value to force methods to wait for the lock to update
     volatile int lock = 0;
