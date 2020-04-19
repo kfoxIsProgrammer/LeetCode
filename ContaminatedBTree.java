@@ -8,7 +8,7 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
-class 1261ContaminatedBTree {
+class ContaminatedBTree {
     //Use tree recusrion
     //first value == 0
     //If treeNode == a value .left != null then .left.val == 2 * a value + 1
