@@ -1,5 +1,5 @@
 //https://leetcode.com/problems/print-in-order/
-class 1114PrintInOrder {
+class PrintInOrder {
 
     //Lock value to force methods to wait for the lock to update
     volatile int lock = 0;
