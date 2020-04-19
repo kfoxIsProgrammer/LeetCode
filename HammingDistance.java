@@ -5,7 +5,7 @@ class HammingDistance {
     }
 }
         
-        //Old code
+        ///Old code
       /*  String z ="";
         String k ="";
         
