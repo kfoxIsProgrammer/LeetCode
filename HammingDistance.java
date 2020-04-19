@@ -2,9 +2,10 @@
 class HammingDistance {
     public int hammingDistance(int x, int y) {
         return Integer.bitCount(x ^ y);
+    }
+}
         
-        
-        
+        //Old code
       /*  String z ="";
         String k ="";
         
@@ -45,7 +46,8 @@ class HammingDistance {
         
         
         return counter;
-       */
+       
         
     }
 }
+*/
