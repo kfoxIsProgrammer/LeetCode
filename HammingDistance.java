@@ -1,5 +1,5 @@
 //https://leetcode.com/problems/hamming-distance/
-class HammerDistance {
+class HammingDistance {
     public int hammingDistance(int x, int y) {
         
         String z ="";
