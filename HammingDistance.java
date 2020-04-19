@@ -1,8 +1,11 @@
 //https://leetcode.com/problems/hamming-distance/
 class HammingDistance {
     public int hammingDistance(int x, int y) {
+        return Integer.bitCount(x ^ y);
         
-        String z ="";
+        
+        
+      /*  String z ="";
         String k ="";
         
         //Convert x into binary
@@ -42,7 +45,7 @@ class HammingDistance {
         
         
         return counter;
-       
+       */
         
     }
 }
