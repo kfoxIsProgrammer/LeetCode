@@ -1,5 +1,5 @@
 //https://leetcode.com/problems/print-foobar-alternately/
-class 1115PrintFooBarAlternately {
+class PrintFooBarAlternately {
     private int n;
     volatile boolean turn = true;
 
