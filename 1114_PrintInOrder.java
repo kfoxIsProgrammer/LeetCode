@@ -11,7 +11,6 @@ class 1114_PrintInOrder {
         
         //Infinite Loop to let threads wait
         while(lock != 0){}
-        
         // printFirst.run() outputs "first". Do not change or remove this line.
         printFirst.run();
         lock = 1;
@@ -22,7 +21,6 @@ class 1114_PrintInOrder {
         
         //Infinite Loop to let threads wait    
         while(lock != 1){}
-        
         // printSecond.run() outputs "second". Do not change or remove this line.
         printSecond.run();
         lock =2;
